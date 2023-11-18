@@ -1,0 +1,56 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "postfix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-postfix-Debug-d219952c347b27c224b1.json",
+					"name" : "postfix",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/olegp/source/repos/mp2-lab3-postfix/\u0421\u044b\u0441\u043e\u0435\u0432/base/out/build/x64-Debug",
+		"source" : "C:/Users/olegp/source/repos/mp2-lab3-postfix/\u0421\u044b\u0441\u043e\u0435\u0432/base"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

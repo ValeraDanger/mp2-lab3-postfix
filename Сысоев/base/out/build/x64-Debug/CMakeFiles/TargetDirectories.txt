@@ -1,0 +1,3 @@
+C:/Users/olegp/source/repos/mp2-lab3-postfix/Сысоев/base/out/build/x64-Debug/CMakeFiles/postfix.dir
+C:/Users/olegp/source/repos/mp2-lab3-postfix/Сысоев/base/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/olegp/source/repos/mp2-lab3-postfix/Сысоев/base/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

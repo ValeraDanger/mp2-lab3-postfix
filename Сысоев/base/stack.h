@@ -16,7 +16,7 @@ public:
 			throw std::out_of_range("Stack size not allowed");
 		this->sz = sz;
 		this->pMem = new T[sz];
-		this->end == this->pMem;
+		this->end = this->pMem;
 	}
 
 	Stack(T* arr, int sz) {
@@ -25,9 +25,6 @@ public:
 		this->sz = sz;
 		this->pMem = new T[sz];
 		this->end = this->pMem;
-
-		pMem;
-		end;
 
 		for (size_t i = 0; i < sz; i++) {
 			this->pMem[i] = arr[i];
@@ -51,10 +48,10 @@ public:
 	void push(T elem) {
 		if (this->end - this->pMem == sz) {
 			T* tmp = new T[sz * 2];
-			this->sz *= 2;
 			for (int i = 0; i < sz; i++) {
 				tmp[i] = this->pMem[i];
 			}
+			this->sz *= 2;
 			this->end = tmp + (this->end - this->pMem);
 			delete[] this->pMem;
 			this->pMem = tmp;

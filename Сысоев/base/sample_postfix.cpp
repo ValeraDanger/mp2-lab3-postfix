@@ -1,24 +1,19 @@
-﻿//#include <iostream>
-//#include <string>
-//#include "postfix.h"
-//
-//using namespace std;
-//
-//int main()
-//{
-//  string expression;
-//  TPostfix postfix;
-//  double res;
-//
-//  setlocale(LC_ALL, "Russian");
-//  //cout << "Введите арифметическое выражение: ";
-//  //cin >> expression;
-//  //cout << expression << endl;
-//  cout << "Арифметическое выражение: " << postfix.GetInfix() << endl;
-//  postfix.ToPostfix();
-//  cout << "Постфиксная форма: " << postfix.GetPostfix() << endl;
-//  res = postfix.Calculate();
-//  cout << res << endl;
-//
-//  return 0;
-//}
+﻿#include <iostream>
+#include <string>
+#include "postfix.h"
+
+int main() {
+	std::string expression = "((2+7)/2)-(2+4)/2";  // -1
+	double res = 0.0;
+
+	//std::cout << "Enter expression: ";
+	//std::getline(std::cin, expression);
+	TArithmeticExpression postfix(expression);
+	std::cout << expression << std::endl;
+	std::cout << "Expression: " << postfix.getInfix() << std::endl;
+	std::cout << "Postfix: " << postfix.getPostfix() << std::endl;
+	res = postfix.calculate();
+	std::cout << "Result: " << res << std::endl;
+
+	return 0;
+}

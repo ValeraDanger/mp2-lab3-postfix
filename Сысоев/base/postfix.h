@@ -1,24 +1,29 @@
-﻿#ifndef __POSTFIX_H__
-#define __POSTFIX_H__
+﻿#pragma once
 
 #include <string>
+#include <vector>
+#include <utility>
+#include <map>
 #include "stack.h"
 
-using namespace std;
+class TArithmeticExpression {
+private:
+    std::string infix;
+    std::string postfix;
 
-class TPostfix
-{
-  string infix;
-  string postfix;
+    std::vector<char> lexemes;
+    std::map<char, int> priority;
+    std::map<char, double> operands;
+
+    void parse();
+    void toPostfix();
+
 public:
-  TPostfix()
-  {
-    infix = "a + b";
-  }
-  string GetInfix() { return infix; }
-  string GetPostfix() { return postfix; }
-  string ToPostfix();
-  double Calculate(); // Ввод переменных, вычисление по постфиксной форме
-};
+    TArithmeticExpression(std::string expression = "");
 
-#endif
+    std::string getInfix() const { return infix; }
+    std::string getPostfix() const { return postfix; }
+
+    std::vector<char> getOperands() const;
+    double calculate();
+};

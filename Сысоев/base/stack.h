@@ -87,8 +87,8 @@ public:
 		return this->end - this->pMem;
 	}
 
-	bool operator==(const Stack<T>& a) {
-		if (this->count != a.count) {
+	bool operator==(Stack<T>& a) {
+		if (this->count() != a.count()) {
 			return false;
 		}
 

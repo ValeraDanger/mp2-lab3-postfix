@@ -1,0 +1,10 @@
+^C:\USERS\OLEGP\SOURCE\REPOS\MP2-LAB3-POSTFIX\PETROV\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/olegp/source/repos/mp2-lab3-postfix/Petrov -BC:/Users/olegp/source/repos/mp2-lab3-postfix/Petrov --check-stamp-file C:/Users/olegp/source/repos/mp2-lab3-postfix/Petrov/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

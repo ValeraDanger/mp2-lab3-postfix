@@ -28,3 +28,10 @@
 *.out
 *.app
 /Студенты/
+/.vs
+/Petrov/bin
+/Petrov/*.vcxproj*
+/Petrov/*/*.vcxproj*
+/Petrov/*.sln
+/Petrov/*/*.sln
+/Petrov/x64

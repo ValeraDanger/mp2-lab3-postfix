@@ -1,0 +1,6 @@
+C:/Users/olegp/source/repos/mp2-lab3-postfix/Petrov/CMakeFiles/ALL_BUILD.dir
+C:/Users/olegp/source/repos/mp2-lab3-postfix/Petrov/CMakeFiles/ZERO_CHECK.dir
+C:/Users/olegp/source/repos/mp2-lab3-postfix/Petrov/src/CMakeFiles/postfix.dir
+C:/Users/olegp/source/repos/mp2-lab3-postfix/Petrov/samples/CMakeFiles/sample_postfix.dir
+C:/Users/olegp/source/repos/mp2-lab3-postfix/Petrov/gtest/CMakeFiles/gtest.dir
+C:/Users/olegp/source/repos/mp2-lab3-postfix/Petrov/test/CMakeFiles/test_postfix.dir

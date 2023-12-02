@@ -43,7 +43,7 @@ void TArithmeticExpression::toPostfix() {
 			break;
 
 		default:
-			operands.insert({ item, 0.0 });
+			operands.insert({ item, item - '0'});  //converting <char> item to <int>
 			postfix += item;
 			break;
 		}
@@ -105,6 +105,7 @@ double TArithmeticExpression::calculate() {
 			break;
 
 		default:
+			std::cout << operands[lexem] << std::endl;
 			stack.push(operands[lexem]);
 			//std::cout << stack << std::endl;
 			break;

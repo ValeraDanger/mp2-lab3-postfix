@@ -1,4 +1,4 @@
-### ![Отчет]([https://travis-ci.org/alvls/mp2-lab3-postfix.svg](https://docs.google.com/document/d/1w6Ry6qGj_0BT8qNE-ztHdMRLe4LZBgQHkc-wYQ4Ybsc/edit?usp=sharing))
+### [Отчет](https://docs.google.com/document/d/1w6Ry6qGj_0BT8qNE-ztHdMRLe4LZBgQHkc-wYQ4Ybsc/edit?usp=sharing)
  
  # Методы программирования 2: Вычисление арифметических выражений
 
